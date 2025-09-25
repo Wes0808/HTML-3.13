@@ -13,7 +13,7 @@ body {
     overflow-x: hidden;
 }
 
-.row {
+    .row {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -21,25 +21,3 @@ body {
 
 /* Navigation Bar */
 
-nav {
-    padding-top: 32px;
-    display: flex;
-}
-
-.navig__row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-}
-
-.navig__logo {
-    display: flex;
-    align-items: center;
-    margin: 8px 0;
-    padding-bottom: 4px;
-}
-
-.navig__logo--img {
-    width: 40px;
-    height: 40px;
-}
