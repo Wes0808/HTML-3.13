@@ -97,9 +97,9 @@ nav {
 
 .navig__link--prime {
     margin: 0;
-    padding: 10px 32 px;
+    padding: 10px 32px;
     margin-top: 2px;
-    border-radius: #6415ff;
+    border-radius: 9999px;
     color: white;
     background-color: #6415ff;
     line-height: 1.5;
