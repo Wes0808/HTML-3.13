@@ -18,6 +18,15 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
 section {
     padding: 0 32px;
 }
@@ -111,6 +120,20 @@ nav {
 
 .navig__link {
     margin: 0 24px;
+}
+
+.butn__menu {
+    background-color: transparent;
+    border: none;
+    display: none;
+    width: 24px;
+    height: 24px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: all 300ms ease;
 }
 
 
