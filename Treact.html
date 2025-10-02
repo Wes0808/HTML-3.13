@@ -1,32 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Treact</title>
     <link rel="stylesheet" href="styles.css" />
-    <script src="https://kit.fontawesome.com/4978939aec.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/4978939aec.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="Tread.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <section id="landing">
-        <nav>
-            <div class="row navig__container">
-                <div class="logo">
-                    <img class="logo__img" src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="Trteact Logo">
-                    <div class="logo__title">Treact</div>
-                </div>
-                <div class="navig__links">
-                    <a href="#" class="navig__link">About</a>
-                    <a href="#" class="navig__link">Blog</a>
-                    <a href="#" class="navig__link">Pricing</a>
-                    <a href="#" class="navig__link">Contact Us</a>
-                    <a href="#" class="navig__link login">Login</a>
-                    <a href="#" class="navig__link navig__link--prime">Sign Up</a>
-                </div>
-                <button class="butn__menu" onclick="openMenu()"></button>
-            </div>
-        </nav>
+      <nav>
+        <div class="row navig__container">
+          <div class="logo">
+            <img
+              class="logo__img"
+              src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg"
+              alt="Trteact Logo"
+            />
+            <div class="logo__title">Treact</div>
+          </div>
+          <div class="navig__links">
+            <a href="#" class="navig__link">About</a>
+            <a href="#" class="navig__link">Blog</a>
+            <a href="#" class="navig__link">Pricing</a>
+            <a href="#" class="navig__link">Contact Us</a>
+            <a href="#" class="navig__link login">Login</a>
+            <a href="#" class="navig__link navig__link--prime">Sign Up</a>
+          </div>
+          <button class="butn__menu" onclick="openMenu()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="btn__menu--svg"
+            >
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </nav>
+      <div class="mymenu">
+        <button class="butn__menu butn__menu--close" onclick="closeMenu()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="light___StyledCloseIcon-lj69nl-14 fASujC"
+          >
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+        <div class="mymenu__links">
+          <a href="#about" class="mymenu__link" onclick="closeMenu()">About</a>
+          <a href="#blog" class="mymenu__link" onclick="closeMenu()">Blog</a>
+          <a href="#pricing" class="mymenu__link" onclick="closeMenu()"
+            >Pricing</a
+          >
+          <a href="#contact__us" class="mymenu__link" onclick="closeMenu()"
+            >Contact Us</a
+          >
+          <a href="#login" class="mymenu__link" onclick="closeMenu()">Login</a>
+          <a
+            href="#signup"
+            class="mymenu__link mymenu__link--prime"
+            onclick="closeMenu()"
+            >Sign Up</a
+          >
+        </div>
+      </div>
     </section>
-</body>
+  </body>
 </html>
