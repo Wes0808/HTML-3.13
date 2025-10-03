@@ -22,6 +22,14 @@ a:hover {
     text-decoration: underline;
 }
 
+.purple {
+    color: #6415ff;
+}
+
+.container {
+    padding: 96px 0;
+}
+
 button {
     cursor: pointer;
     border: none;
@@ -194,6 +202,13 @@ section {
     position: fixed;
     top: 24px;
     right: 18px;
+}
+
+/* HEADER */
+
+.head__desc {
+    width: 40%;
+    
 }
 
 
