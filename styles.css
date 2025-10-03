@@ -136,6 +136,10 @@ section {
     transition: all 300ms ease;
 }
 
+.butn__menu--svg:hover {
+    filter: invert(26%) sepia(94%) saturate(7476%) hue-rotate(261deg) brightness(94%) contrast(115%);
+}
+
 .mymenu {
     position: fixed;
     top: 0;
@@ -154,12 +158,12 @@ section {
     transition: all 300ms ease;
 }
 
-.mymenu__link--prime {
-    color: #f7fafc;
-    padding: 12px 32px;
-    background: #6415ff;
-    border-radius: 500px;
-    border: none;
+.mymenu__links {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .mymenu__link {
@@ -171,4 +175,26 @@ section {
     padding-bottom: 4px;
     border-bottom: 2px solid transparent;
 }
+
+.mymenu__link--prime {
+    color: #f7fafc;
+    padding: 12px 32px;
+    background: #6415ff;
+    border-radius: 500px;
+    border: none;
+}
+
+.mymenu--open .mymenu {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.butn__menu--close {
+    position: fixed;
+    top: 24px;
+    right: 18px;
+}
+
+
 
