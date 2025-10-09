@@ -130,6 +130,10 @@ section {
     margin: 0 24px;
 }
 
+.login {
+    margin-left: 48px;
+}
+
 .butn__menu {
     background-color: transparent;
     border: none;
@@ -210,6 +214,7 @@ header .row {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 48px;
 }
 
 .head__desc {
