@@ -316,7 +316,7 @@ img {
     font-weight: 700;
     text-transform: uppercase;
 }
-.feat__title {
+.feat__title1 {
     font-size: 48px;
     font-weight: 900;
     color: rgb(36, 62, 99);line-height: 1.5;
@@ -325,7 +325,7 @@ img {
     text-align: center;
 }
 
-.feat__para {
+.feat__para1 {
     font-size: 18px;
     font-weight: 500;
     color: #7c8ba1;
@@ -342,6 +342,39 @@ img {
 
 .feat {
     width: calc(100% / 3);
+}
+
+.feat__row {
+    display: flex;
+    align-items: flex-start;
+    padding: 32px 24px;
+}
+
+.feat__img--wrapper {
+    display: flex;
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+    border-radius: 500px;
+}
+
+.feat__img {
+    width: 24px;
+    height: 24px;
+}
+
+.feat__text {
+    margin-top: 8px;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.feat__para {
+    margin-top: 16px;
+    font-size: 16px;
+    max-width: calc(634px / 3);
+    line-height: 2;
+    font-weight: 500;
 }
 
 
