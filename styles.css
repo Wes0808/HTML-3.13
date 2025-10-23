@@ -318,6 +318,7 @@ feat__tag {
 
 #features .feat__title1 {
     text-align: center;
+    padding: 24px;
 }
 
 feat__title1 {
@@ -325,7 +326,7 @@ feat__title1 {
     font-weight: 900;
     color: rgb(36, 32, 99);
     line-height: 1.5;
-    margin: 16px 0;
+    margin: 24px 0;
     letter-spacing: 0.025em;
 }
 
@@ -382,4 +383,6 @@ feat__title1 {
     /*line-height: 2;*/
     font-weight: 500;
 }
+
+/* Quality */
 
