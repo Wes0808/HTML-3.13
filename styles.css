@@ -610,9 +610,44 @@ feat__title1 {
     flex-direction: column;
 }
 
+.valu:nth-of-type(1) .valu__img--wrapper {
+    background-color: #9ae6b4;
+}
+
 .valu__title {
     display: flex;
     align-items: center;
+}
+
+.valu:nth-child(2) .valu__img--wrapper {
+    background-color: #feb2b2;
+}
+
+.valu__img--wrapper {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 32px;
+}
+
+.valu__img {
+    width: 20px;
+    height: 20px;
+}
+
+.valu__name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 12px;
+    color: #243e63;
+}
+
+.valu__para {
+    margin-top: 16px;
+    line-height: 1.625;
+    color: #718096;
 }
 
 
