@@ -627,7 +627,7 @@ feat__title1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 64px;
+    width: 32px;
     height: 32px;
 }
 
@@ -643,10 +643,10 @@ feat__title1 {
     color: #243e63;
 
 .valu__para {
+    padding-top: 32px;
     margin-top: 16px;
     line-height: 1.625;
     color: #718096;
-    justify-content: ;
 }
 
 
