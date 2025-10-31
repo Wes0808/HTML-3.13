@@ -591,15 +591,14 @@ feat__title1 {
 }
 
 .val__list {
-    /*margin-left: 0;
+    margin-left: 0;
     margin-right: 0;
     display: flex;
-    flex-direction: row;*/
     max-width: none;
-
+    flex-direction: row;
 }
 
-.val__list > .valu:first-child {
+.val__list .valu:first-child {
     margin-top: 32px;
     margin-right: 32px;
 }
