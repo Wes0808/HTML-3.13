@@ -642,6 +642,7 @@ feat__title1 {
     font-weight: bold;
     margin-left: 12px;
     color: #243e63;
+}
 
 .valu__para {
     padding-top: 32px;
@@ -651,10 +652,10 @@ feat__title1 {
     display: flex;
 }
 
-
-.valu__img {
-    width: 50%;
-}
+#values .butn {
+    margin-top: 32px;
+    display: inline-block;
+}  
 
 
 
