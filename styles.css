@@ -727,3 +727,52 @@ val__img {
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
     rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0;
 }
+
+.price__plan:nth-child(1) .plan__stripe,
+.price__plan:nth-child(1) .plan__butn {
+    color: #f7fafc;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0% rgb(129, 230, 217) 100%);
+}
+
+.plan__stripe {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    height: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.plan__top {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    line-height: 1.625;
+}
+
+.price__plan:nth-child(odd) .plan__name,
+.price__plan:nth-child(odd) .plan__price,
+.price__plan:nth-child(odd) .plan__target {
+  color: #1a202c;
+}
+.price__plan:nth-child(odd) .plan__dur {
+  color: #a0aec0;
+}
+
+.plan__name, .plan__price, .plan__dur {
+  font-weight: bold;
+  line-height: 1.625;
+}
+
+.plan__name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.plan__price {
+  font-size: 48px;
+  margin: 4px 0;
+}
