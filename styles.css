@@ -860,6 +860,13 @@ val__img {
   letter-spacing: 0.05em;transition: all 300ms ease;
 }
 
+.plan__butn:hover {
+  transform: translate(1px, -1px);
+  box-shadow: rgba(0, 0, 0, 0) 0px opx 0px 0px,
+  rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+  rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
 .price__plans--blob {
   z-index: -10;
   position: absolute;
@@ -1024,6 +1031,10 @@ val__img {
   transition: all 300ms ease;
 }
 
+.testimonl__butn:hover {
+  background-color: rgb(229, 231, 235);
+}
+
 .testimonl__butn svg {
   width: 16px;
   height: 16px;
@@ -1041,6 +1052,104 @@ val__img {
 .testimonls__img, .testimonl__desc {
   width: 50%;
 }
+
+/* START SECTION */
+
+.getstart__circle--1 {
+  position: absolute;
+  height: 20rem;
+  width: 20rem;
+  left: 0px;
+  bottom: 0px;
+  transform: translate(-5rem, 8rem);
+  color: rgb(80 17 204);
+  opacity: 0.5;
+}
+
+.getstart__circle--2 {
+  position: absolute;
+  height: 20rem;
+  width: 20rem;
+  left: 0px;
+  bottom: 0px;
+  transform: translate(-5rem, 8rem);
+  color: rgb(80 17 204);
+  opacity: 0.5;
+}
+
+.getstart__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 96px;
+  width: 100%;
+  background-color: rgb(100, 21, 255);border-radius: 8px;
+}
+
+.getstart__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 32px;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.getstart__title, .getstart__butns {
+  width: 50%;
+}
+
+.getstart__title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #f7fafc;
+  z-index: 2;
+}
+
+.getstart__butns {
+  display: flex;
+  justify-content: center;
+}
+
+.getstart__butn {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.025;
+  padding: 20px 40px;
+  margin: 1px;
+  border-radius: 500px;
+  color: #f7fafc;
+  z-index: 2;
+}
+
+.getstart__butn:hover:nth-child(1) {
+  background-color: rgba(229, 62,62);
+}
+
+.getstart__butn:nth-child(1) {
+  background-color: #f56565;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+  rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+  rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+  rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  margin-right: 32px;
+  transition: all 300ms ease;
+}
+
+.getstart__butn:hover:nth-child(2) {
+  background-color: rgba(247, 250, 252);
+  color: rgba(100, 21, 255);
+}
+
+.getstart__butn:nth-child(2) {
+  border: 1px solid rgb(160, 174, 192);
+  transition: all 300ms ease;
+}
+
+/* Media */
 
 @media (max-width: 1280px) {
   .plan__botm {
