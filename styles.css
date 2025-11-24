@@ -1282,6 +1282,11 @@ footer {
 /* Media */
 
 @media (max-width: 1280px) {
+
+  header .row {
+    align-items: flex-end;
+  }
+
   .plan__botm {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -1296,3 +1301,45 @@ footer {
     width: calc(100% - 40%);
   }
 }
+
+@media (max-width: 1024px) {
+  .butn__menu {
+    display: block;
+  }
+  header .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer {
+    padding: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  #quality .row, 
+  #values .row {
+    flex-direction: column-reverse;
+  }
+  #steps .row,
+  #testimonals .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  #pricing .row {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 80px 0;
+  }
+  .logo {
+    margin: 8px 0;
+    padding-bottom: 4px;
+  }
+  main {
+    margin-bottom: 80px;
+  }
+}
+
