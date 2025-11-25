@@ -221,7 +221,7 @@ section {
   border: none;
 }
 
-.mymenu--open .mymenu {
+.menu--open .mymenu {
   visibility: visible;
   opacity: 1;
   transform: translateX(0);
@@ -1340,6 +1340,9 @@ footer {
   }
   main {
     margin-bottom: 80px;
+  }
+  .navig__links {
+    display: none;
   }
 }
 
