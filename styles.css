@@ -1303,6 +1303,9 @@ footer {
 }
 
 @media (max-width: 1024px) {
+  .navig__links {
+    display: none;
+  }
   .butn__menu {
     display: block;
   }
