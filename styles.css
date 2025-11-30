@@ -587,7 +587,7 @@ feat__title1 {
 }
 
 .val__desc,
-val__img {
+.valu__img {
   width: 50%;
 }
 
@@ -657,11 +657,6 @@ val__img {
   align-items: center;
   width: 32px;
   height: 32px;
-}
-
-.valu__img {
-  width: 20px;
-  height: 20px;
 }
 
 .valu__name {
@@ -1104,10 +1099,6 @@ val__img {
   max-width: 1024px;
 }
 
-.getstart__title, .getstart__butns {
-  width: 50%;
-}
-
 .getstart__title {
   font-size: 30px;
   font-weight: 700;
@@ -1118,7 +1109,12 @@ val__img {
 
 .getstart__butns {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+}
+
+.getstart__title,
+.getstart__butns {
+  width: 50%;
 }
 
 .getstart__butn {
@@ -1327,6 +1323,74 @@ footer {
     padding: 32px 24px;
     flex-direction: column;
   }
+  .step {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .price__plans {
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .price__plan {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+  width: 100%;
+  max-width: 24rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+  padding-right: 2rem;
+  text-align: center;
+  }
+  .testimonl__img,
+  .testimonl__desc {
+    width: 100%; 
+  }
+  .testimonl__botm {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .testimonl__img {
+    width: 48px;
+    height: 48px;
+  }
+  .testimonl__butns {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  .valu__img {
+    width: 100%;
+    height: 448px;
+  }
+  .getstart__row {
+    flex-direction: column;
+  }
+  .getstart__butns {
+    width: auto;
+    margin-top: 24px;
+  }
+  .getstart__title {
+    text-align: center;
+    width: 100%;
+    max-width: 512px;
+  }
+  .getstart__title,
+  .getstart__butns {
+    max-width: 100%;
+    
+  }
   footer {
     padding: 32px;
   }
@@ -1361,6 +1425,17 @@ footer {
   }
   .navig__links {
     display: none;
+  }
+  .getstart__butn {
+    padding: 24px 12px;
+
+  }
+  .butn {
+    line-height: 1.5;
+  }
+  .getstart__butn:nth-child(1) {
+    margin-right: 0;
+    font-size: 14px;
   }
 }
 
