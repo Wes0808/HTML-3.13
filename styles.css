@@ -271,7 +271,7 @@ header .row {
   width: 100%;
   border-radius: 500px;
   border: 2px solid rgb(229, 231, 235);
-  padding: 20px 92px 20px 32px;
+  padding: 20px 192px 20px 32px;
   color: rgb(36, 62, 99);
   font-size: 16px;
   font-weight: 500;
@@ -990,6 +990,7 @@ feat__tag {
 }
 
 .testimonl__img {
+  width: 40%;
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -1044,6 +1045,12 @@ feat__tag {
   margin-bottom: 0.75rem;
   border-right-width: 1px;
   background-color: #edf2f7;
+}
+
+.testimonl__desc {
+  display: flex;
+  flex-direction: column;
+  padding-left: 64px;
 }
 
 .testimonls__img, .testimonl__desc {
@@ -1288,7 +1295,7 @@ footer {
   .plan__butn {
     max-width: none;
   }
-  .testimonl__img {
+  .testimonls__img {
     width: 40%;
   }
   .testimonl__desc{
