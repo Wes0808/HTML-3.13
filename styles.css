@@ -57,6 +57,10 @@ section {
   padding: 0 32px;
 }
 
+img {
+  width: 100%;
+}
+
 .container {
   padding: 96px 0;
 }
@@ -481,7 +485,7 @@ feat__tag {
 
 .qual__img {
   z-index: 1;
-  width: 100%;
+  /*width: 100%;*/
 }
 
 /*  STEPS  */
