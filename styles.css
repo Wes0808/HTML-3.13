@@ -147,6 +147,10 @@ img {
   width: auto;
   transition: all 300ms ease;
 }
+.navig__link--prime:hover {
+  background-color: #5011cc;
+  color: #ffffff;
+}
 
 .navig__link--prime:after {
   content: "";
