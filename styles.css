@@ -386,11 +386,11 @@ feat__tag {
   line-height: 1.625;
 }
 
-.feats {
+/*.feats {
   display: flex;
   flex-wrap: wrap;
-  /*flex-direction: column;*/
-}
+  /*flex-direction: column;
+}*/
 
 .feat {
   display: flex;
@@ -1317,6 +1317,9 @@ footer {
   header .row {
     flex-direction: column;
     align-items: center;
+  }
+  .feats {
+    max-width: 768px;
   }
   .feats {
     display: flex;
