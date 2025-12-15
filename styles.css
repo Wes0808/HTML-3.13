@@ -1415,10 +1415,27 @@ footer {
   #pricing .row {
     margin-top: 40px;
   }
-  .feats {
-    display: flex;
-    flex-wrap: wrap;
+  .feat__row {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .qual__desc, .step1__desc,
+  .val__desc, .testimonl__desc {
+    padding: 0;
+    margin-top: 64px;
+    text-align: center;
+  }
+  .feats {
+    justify-content: center;
+    /*display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;*/
+  }
+  .feat {
+    width: auto;
+    max-width: 384px;
+  }
   .ftbottm {
     flex-direction: column;
     align-items: center;
@@ -1443,9 +1460,27 @@ footer {
   .navig__links {
     display: none;
   }
+  .head__email--input {
+    width: 100%;
+    padding: 16px 0;
+    padding-left: 32px;
+    line-height: 1.5;
+  }
+  .head__email--butn {
+    width: 100%;
+    padding: 16px 0;
+    margin: 16px 0;
+    margin-bottom: -128px;
+    line-height: 1.5;
+  }
+  .feat {
+    width: 100%;
+  }
+  .feat__row {
+    text-align: center;
+  }
   .getstart__butn {
     padding: 24px 12px;
-
   }
   .butn {
     line-height: 1.5;
@@ -1453,9 +1488,6 @@ footer {
   .getstart__butn:nth-child(1) {
     margin-right: 0;
     font-size: 14px;
-  }
-  .feat {
-    width: 100%;
   }
   .foot__colum {
     padding: 0 16px;
